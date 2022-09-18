@@ -15,7 +15,7 @@ const InputTodo = () => {
             });
 
             
-            console.log(response);
+            window.location = "/"; //refresh the page
         } catch (err) {
             console.error(err.message);
         }
